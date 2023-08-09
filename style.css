@@ -1,0 +1,71 @@
+#container {
+    width: 350px;
+    height: 95vh;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 6fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+input {
+    background-color: black;
+    font-size: 50px;
+    grid-column: span 4;
+    text-align: end;
+    color: white;
+    border: 0;
+    outline: none;
+    padding-right: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/* .zero {
+    grid-column: span 2;
+    text-align: start;
+    padding-left: 30px;
+    border-radius: 75px;
+} */
+button {
+    margin: 10px;
+    background-color: #303030;
+    color: white;
+    border-radius: 50%;
+    outline: none;
+    border: 0;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-property: background-color;
+    padding: 2px;
+}
+#delete {
+    background-color: red;
+}
+#delete:active {
+    background-color: white;
+}
+button:active {
+    background-color: white;
+}
+.gray-button {
+    background-color: rgb(165, 163, 163);
+    color: black;
+}
+.yellow-button {
+    background-color: orange;
+    font-size: 35px;
+}
+.power {
+    padding-top: 15px;
+    font-size: 35px;
+}
+.mult {
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.divide {
+    font-size: 40px;
+}
